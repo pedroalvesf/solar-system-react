@@ -2,10 +2,11 @@ import React from "react";
 
 class Title extends React.Component {
   render() {
+    const head  = this.props.headline;
     return(
     <div>
       <h2>
-        oi
+        { head }
       </h2>
     </div>
   )}
