@@ -4,11 +4,11 @@ class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div>
-        <p> { name } </p>
-        <p> { year } </p>
-        <p> { country } </p>
-        <p> { destination } </p>
+      <div className="missionCard">
+        <p className="filho"> { name } </p>
+        <p className="filho"> { year } </p>
+        <p className="filho"> { country } </p>
+        <p className="filho"> { destination } </p>
       </div>
     )
   }
