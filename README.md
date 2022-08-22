@@ -1,7 +1,7 @@
 # Projeto Solar System!
 
 <details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
+  <summary><strong>💻 Desenvolvimento</strong></summary><br />
 
   Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa aplicação, uma pessoa usuária deverá ser capaz de:
 
