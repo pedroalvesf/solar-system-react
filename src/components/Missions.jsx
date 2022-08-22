@@ -7,8 +7,8 @@ class Missions extends React.Component {
     const head = this.props.headline;
     return (
       <div>
-      <div>
-        {head}
+      <div className="subTitle">
+        <h2> {head} </h2>
       </div>
       {missions.map(({ name, year, country, destination }) => (
         <MissionsCard
