@@ -14,7 +14,7 @@ class App extends React.Component {
       <SolarSystem />
       <Title headline="Planetas" />
       <PlanetCard />
-      <Missions />
+      <Missions headline="Missões" />
 
       </div>
     )
