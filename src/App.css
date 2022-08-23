@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* background: url(./images/background.png); */
+  background: url(./images/background.png);
   background-size: cover;
 }
 
@@ -10,7 +10,7 @@ body {
   font-style: normal;
   color: aliceblue;
   font-size: 30px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .subTitle {
@@ -18,39 +18,49 @@ body {
   color: aliceblue;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+
 }
 
 .planetName {
-  color: aliceblue ;
+  color: aliceblue;
   font-size: 20px;
   text-align: center;
+
 }
 
 .planets {
-  background-color: bisque;
-  display: flex;
-  text-align: center;
+  display: inline-flex;
   justify-content: center;
+  padding-left: 160px;
+  flex-wrap: wrap;
 }
 
 .planet {
- 
-  width: 170px;
+  width: 200px;
 }
 
 .planet:hover {
-  width: 200px;
+  width: 210px;
   margin-top: -20px;
 }
 
 .missionCard {
-  display: inline-block;
-  width: 200px;
-  height: 180px;
-  background-color: bisque;
-  border: 1px solid;
-  text-align: center;
- 
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 70px;
 }
 
+.card {
+  background-color: rgb(226, 233, 231);
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin: 25px;
+  text-align: center;
+  color: rgb(27, 63, 94);
+  font-size: 20px;
+}
+
+.card:hover {
+  background-color: beige;
+}
